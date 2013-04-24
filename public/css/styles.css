@@ -1,0 +1,163 @@
+/***** Typography ****/
+
+body {
+	font-family: Gotham, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+	h1 {
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 72px;
+	margin: 0px;
+	padding: 0px 10px;
+}
+
+h2 {
+	font-family: Gotham, sans-serif;
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+
+}
+	
+a {
+
+}
+
+/**** Structure ****/
+
+header {
+	background-image: url("../images/squairy_light.png");
+}
+
+header .container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 200px 0 300px 0;
+}
+
+header #name {
+	background-color: #fff000;
+	margin-left: 200px;
+}
+
+header #social-media {
+	background-color: #DE2186;
+	margin-left: 300px;
+	margin-right: 175px;
+	padding-left: 20px;
+}
+
+header #social-media img {
+	height: 32px;
+	width: 32px;
+	margin: 5px 10px 0px 10px;
+
+}
+
+header nav {
+	background-color: #19C2FF;
+	margin-right: 225px;
+	text-align: right;
+}
+
+header nav ul {
+	list-style-type: none;
+	padding: 10px 0px ;
+	margin: 10px 10px;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 20px;
+}
+
+header nav ul li a{
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+
+#about {	
+	background-color: #19C2FF;
+	background-size: auto;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-attachment: scroll;
+	height: 750px;
+}
+
+#about .container {
+	width: 900px;
+	margin: 0px auto;
+	padding: 150px 0px; 
+}
+
+#about p {
+	font-size: 24px;
+}
+
+#portfolio {	
+	background-color: #fff000;
+	height: 1100px;
+}
+
+#portfolio .container {
+	width: 900px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+#portfolio h2 {
+	margin-top: 100px;
+}
+#portfolio .project {
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin: 10px 20px 0 0;
+	padding: 10px 20px 0 0;
+}
+
+#portfolio a {
+	text-decoration: none;
+	color: black;
+}
+
+#portfolio a:hover {
+	color: #DE2186;
+
+}
+
+#portfolio .project img {
+	height: 250px;
+	width: 350px;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+
+#blog {
+	height: 540px;
+	clear: left;
+	display: none;
+}
+
+footer {
+	padding: 0px 40px 10px 40px;
+	clear: left;
+}
+
+footer p {
+	text-align: right;
+	margin-right: 20px;
+}
+
