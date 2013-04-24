@@ -164,6 +164,10 @@ header #social-media img {
 	border-radius: 10px;
 }
 
+#portfolio .no-image {
+	display: none;
+}
+
 #blog {
 	height: 540px;
 	clear: left;
