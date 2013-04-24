@@ -48,11 +48,54 @@ header #name {
 	margin-left: 200px;
 }
 
-header #social-media {
+header #name h1 {
+	height: 78px;
+}
+
+header #title {
+	background-color: #19C2FF;
+	margin-right: 250px;
+	text-align: right;
+}
+
+header #title	h2 {
+		margin: 10px;
+		padding: 5px 0;
+		font-size: 36px;
+	}
+
+header nav {
 	background-color: #DE2186;
-	margin-left: 300px;
-	margin-right: 175px;
-	padding-left: 20px;
+	margin-left: 260px;
+	margin-right: 150px;
+	padding-left: 10px;
+}
+
+header nav ul {
+	list-style-type: none;
+	padding: 5px 0px;
+	margin: 10px 0px;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 10px;
+}
+
+header nav ul li a {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+header nav ul li a:hover {
+	color: white;
+}
+
+header #social-media {
+	margin-left: 325px;
+	margin-right: 250px;
 }
 
 header #social-media img {
@@ -60,30 +103,6 @@ header #social-media img {
 	width: 32px;
 	margin: 5px 10px 0px 10px;
 
-}
-
-header nav {
-	background-color: #19C2FF;
-	margin-right: 225px;
-	text-align: right;
-}
-
-header nav ul {
-	list-style-type: none;
-	padding: 10px 0px ;
-	margin: 10px 10px;
-}
-
-header nav ul li {
-	display: inline;
-	margin: 20px;
-}
-
-header nav ul li a{
-	font-family: Helvetica, sans-serif;
-	font-size: 24px;
-	text-decoration: none;
-	color: black;
 }
 
 
@@ -154,10 +173,14 @@ header nav ul li a{
 footer {
 	padding: 0px 40px 10px 40px;
 	clear: left;
+	border-top: 1px solid grey;
 }
 
 footer p {
 	text-align: right;
-	margin-right: 20px;
+	padding: 20px 20px 10px 20px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+
 }
 
