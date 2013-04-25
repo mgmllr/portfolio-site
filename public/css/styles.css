@@ -1,7 +1,7 @@
 /***** Typography ****/
 
 body {
-	font-family: Gotham, sans-serif;
+	font-family: Gotham, Helvetica, sans-serif;
 	font-size: 16px;
 	margin: 0;
 }
@@ -15,16 +15,17 @@ body {
 }
 
 h2 {
-	font-family: Gotham, Helvetica, sans-serif;
 	font-size: 48px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 28px;
+	font-weight: bold;
+
 }
 
 h4 {
-
+	font-size: 24px;
 }
 	
 a {
@@ -133,8 +134,9 @@ header #social-media a:hover {
 }
 
 #portfolio {	
-	background-color: #fff000;
-	height: 1100px;
+	/*background-image: url("../images/kindajean_@2X.png"); */	
+	background-color: #fff000; 
+	height: 1150px;
 }
 
 #portfolio .container {
@@ -145,12 +147,13 @@ header #social-media a:hover {
 
 #portfolio h2 {
 	margin-top: 100px;
+	margin-bottom: 0px;
 }
 #portfolio .project {
 	width: 400px;
 	height: 400px;
 	float: left;
-	margin: 10px 20px 0 0;
+	margin: 10px 20px 20px 0;
 	padding: 10px 20px 0 0;
 }
 
@@ -175,7 +178,7 @@ header #social-media a:hover {
 	display: none;
 }
 
-#blog {
+#blog-coming-soon {
 	height: 540px;
 	clear: left;
 	display: none;
